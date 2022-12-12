@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.menu {
+  background-color: rgb(0, 0, 0);
+  height: 1200px;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+.textTemya{
+  color: black;
+}
+.logo {
+  background-image: url(/LogoWhite\ \(1\).png);
+  width: 400px;
+  height: 30px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.menu_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-theme {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+.h4 {
+  font-size: 14px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li a {
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.nav li a:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.nav li {
+  padding-left: 25px;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+.temya {
+  display: flex;
+  color: black;
+}
+.blackTheme {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 80px;
+  padding: 15px 15px 15px 15px;
+  margin: 0;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  font-weight: bold;
+  align-items: center;
+}
+.AboutUs {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+}
+.fon1 {
+  position: relative;
+  filter: brightness(40%);
+  width: 1200px;
+  height: 800px;
+}
+
+.img-text {
+  position: absolute;
+  top: 150px;
+  width: 700px;
+  margin-left: 250px;
+  height: 50px;
+  color: white;
+  font-size: 40px;
+  font-family: Manrope Thin;
+}
+.dopinfaAboutUs {
+  font-size: 20px;
+  font-family: Manrope Thin;
+  font-style: italic;
+  margin-left: 50px;
+}
+.btnAboutUs {
+  font-size: 20px;
+  font-family: Manrope Thin;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-top: auto;
+  padding: 0;
+  margin-left: 200px;
+  text-decoration: none;
+  padding: 10px;
+}
+.RedParquet {
+  color: white;
+  font-size: 40px;
+  font-family: Manrope Thin;
+  background-color: rgb(255, 0, 0);
+  padding: 5px;
+}
+.RedRub {
+  color: white;
+  font-size: 40px;
+  font-family: Manrope Thin;
+  background-color: rgb(255, 0, 0); 
+  padding: 5px;
+}
+.rev_slider-otzivi-zagalovok{
+  font-size: 30px;
+  padding: 0px 0px 0px 450px;
+
+}
+.rev_slider-otzivi {
+  margin: auto; 
+  background-color:rgb(248, 248, 248);
+  width: 1000px;
+  padding-left: 10px;
+}
+.slide-itzivi {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.container-otzivi-slide{
+  display: flex;
+}
+.photo-otzivi {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  padding: auto;
+  margin: 0px 0px 0px 10px;
+}
+.name-otzivi {
+  color: black;
+  margin: auto;
+  font-size: 50px;
+}
+.text-otzivi {
+  width: 900px;
+  color: black;
+  padding-top: 10px;
+  margin: auto;
+  font-size: 20px;
+}
+.slick-active{
+  color:  white;
+}

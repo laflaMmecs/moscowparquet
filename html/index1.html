@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moscowparquet.org</title>
+    <link rel="stylesheet" href="/css/light.css" id="theme">
+</head>
+<body>
+    <div class="menu-glavniy">
+        <div class="container-osnovnoi">
+            <div class="menu_inner_glavniy">
+                <div class="logo_glavniy"></div>
+                <div class="nav_glavniy">
+                    <li class="nav_a_glavniy"><a href="/html/index1.html">Главная</a></li>
+                    <li class="nav_a_glavniy"><a href="/html/aboutUs.html">О нас</a></li>
+                    <li class="nav_a_glavniy"><a href="/html/Services.html">Услуги</a></li>
+                    <li class="nav_a_glavniy"><a href="/html/index.html">Цена</a></li>
+                    <li class="nav_a_glavniy"><a href="/html/HappyClients.html">Отзывы клиентов</a></li>
+                    <li class="nav_a_glavniy"><a href="/html/ContactUs.index.html">Связаться с нами</a></li>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="blackTheme">
+                <label class="temya" for="">
+                    <p class="textTemya">Включить темную тему?</p>
+                    <input type="checkbox" class="theme-checkbox">
+                </label>
+            </div>
+            <br>
+            <br>
+            <div class="AboutUs">
+                <img src="/img/8b647739221094a9b23729a92e21eb47.png" alt="" class="fon1">
+                <div class="img-text"> <span class="RedParquet">Укладка паркета, <br> паркетной и инженерной доски </span> <br> на стяжку и фанеру <br> в Москве и области от <span class="RedRub">500 руб./м²</span>
+                <br>
+                <br>
+                <div class="dopinfaAboutUs">
+                    Приступим к работам в день заказа.
+                    <br>
+                    Выработка бригады до 30 м ²/день.
+                </div>
+                <br>
+                <a href="#" class="btnAboutUs">Расcчитать стоимость online</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    let checkbox = document.querySelector('.theme-checkbox')
+
+    
+    if(localStorage.getItem('theme') == "true") {
+        theme.setAttribute('href', '../css/dark.css')
+        checkbox.checked = true
+    }
+
+    checkbox.onchange = function() {
+        if(this.checked) {
+            localStorage.setItem('theme', true)
+            theme.setAttribute('href', '../css/dark.css')
+            
+        } else {
+            localStorage.setItem('theme', false)
+            theme.setAttribute('href', '../css/light.css')
+            
+        }
+    }
+</script>
+</body>
+</html>

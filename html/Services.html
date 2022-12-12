@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moscowparquet.org</title>
+    <link rel="stylesheet" href="/css/light.css" id="theme">
+</head>
+<body>
+    <div class="menu">
+        <div class="container">
+            <div class="menu_inner">
+                <div class="logo"></div>
+                <div class="nav">
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/aboutUs.html">About Us</a></li>
+                    <li><a href="/html/Services.html">Services</a></li>
+                    <li><a href="/html/Pricing.html">Pricing</a></li>
+                    <li><a href="/html/HappyClients.html">Happy Clients</a></li>
+                    <li><a href="/html/ContactUs.index.html">Contact Us</a></li>
+                </div>
+            </div><br><br>
+            <div class="blackTheme">
+                <label class="temya" for="">
+                    <p>Включить темную тему?</p>
+                    <input type="checkbox" class="theme-checkbox">
+                </label>
+            </div>
+        </div>
+    </div>
+<script>
+    let checkbox = document.querySelector('.theme-checkbox')
+
+    
+    if(localStorage.getItem('theme') == "true") {
+        theme.setAttribute('href', '../css/dark.css')
+        checkbox.checked = true
+    }
+
+    checkbox.onchange = function() {
+        if(this.checked) {
+            localStorage.setItem('theme', true)
+            theme.setAttribute('href', '../css/dark.css')
+            
+        } else {
+            localStorage.setItem('theme', false)
+            theme.setAttribute('href', '../css/light.css')
+            
+        }
+    }
+</script>
+</body>
+</html>
